@@ -1,3 +1,5 @@
+a=10
+b=20
 blogposts=[]
 c=1
 while c==1:
