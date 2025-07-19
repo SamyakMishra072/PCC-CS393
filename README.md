@@ -33,7 +33,7 @@ This repository is organized by topic. Here are the sections you can find:
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/SamyakMishra072/PCC-CS393.git
     ```
 2.  **Navigate to a specific folder:**
     ```bash
