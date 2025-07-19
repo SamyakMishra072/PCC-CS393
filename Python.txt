@@ -1,0 +1,37 @@
+For Linux Based Systems , you may have to activate an virtual environment on your Systems.
+
+To activate a virtual environment created with venv or virtualenv on a Linux system, you use the source command.
+
+The general command is:
+
+Bash
+
+source <virtual_environment_directory>/bin/activate
+For example, if you created a virtual environment named myenv in your current directory, you would activate it like this:
+
+Bash
+
+source myenv/bin/activate
+## Complete Workflow
+Here is the typical workflow for creating and using a Python virtual environment on Linux. 🐍
+
+Create the Environment
+First, navigate to your project directory and create the virtual environment. It's standard practice to use the built-in venv module. This command creates a new directory (e.g., myenv) containing the Python interpreter and supporting files.
+
+Bash
+
+python3 -m venv myenv
+Activate the Environment
+Next, activate it using the source command.
+
+Bash
+
+source myenv/bin/activate
+You'll know it's active because your shell prompt will be prefixed with the name of the environment, like (myenv).
+
+Deactivate the Environment
+When you are finished working, you can exit the environment by simply typing:
+
+Bash
+
+deactivate
